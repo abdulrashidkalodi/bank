@@ -1,0 +1,25 @@
+
+
+<div>
+  <div class="form">
+    <div>
+      <img class="loginimg" src="https://png.pngtree.com/png-vector/20191003/ourmid/pngtree-user-login-or-authenticate-icon-on-gray-background-flat-icon-ve-png-image_1786166.jpg" alt="">
+    </div>
+
+    <h3 style="text-align: center;">Login Hear !</h3>
+
+    <form (ngSubmit)="login()" [formGroup]="loginForm" class="details">
+      <p>Account Number</p>
+      <input formControlName="acno" name="acno" style="width: 90%; border-radius: 10px; " type="text" placeholder="enter your account number ">
+      <p>Password</p>
+      <input formControlName="pswd" name="pswd" style="width: 90%; border-radius: 10px; " type="password" placeholder="enter your password "><br>
+      <button type="submit" style=" margin-top: 10px; margin-left: 110px; border-radius: 10px; background-color: red;">LOGIN</button><br>
+      <div style=" text-align: center; ">
+        <a href="">Forget Password?</a><br>
+        <a href="">register?</a><br>
+      </div>
+    </form>
+
+  </div>
+
+</div>
